@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="theme-color" content="#333">
+	    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+	    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+	    <meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
+	    <meta HTTP-EQUIV="expires" CONTENT="0">
+
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black"><!--顶部状态栏背景色-->
+	    <meta name="apple-mobile-web-app-capable" content="yes"><!--删除默认的苹果工具栏和菜单栏-->
+	    <meta name="format-detection" content="telephone=no"><!--禁止识别电话号码-->
+	    <meta name="format-detection" content="email=no"><!--禁止识别邮箱-->
+	    <meta name="renderer" content="webkit"><!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+	    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+	    <meta name="screen-orientation" content="portrait"><!-- UC强制全屏 -->    <!-- uc强制竖屏 -->
+	    <meta name="full-screen" content="yes"><!-- UC强制全屏 -->
+	    <meta name="x5-fullscreen" content="true"><!-- QQ强制全屏 -->
+	    <meta name="browsermode" content="application"><!-- UC应用模式 -->
+	    <meta name="x5-page-mode" content="app"><!-- QQ应用模式 -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<title>SkyBay</title>
+		<script type="text/javascript">
+
+			(function(window,document){
+				function onResize(){
+					var html = document.querySelector('html');
+					var width = window.screen.width;
+					html.style.fontSize = width/10+'px';
+				}
+				
+						window.addEventListener("resize",onResize);
+
+						window.addEventListener("load",onResize)
+
+			})(window,document)
+
+		</script>
+	</head>
+	<body style="font-size: 12px;">
+		<!-- 入口 -->
+		<div id="root">
+			入口
+		</div>
+	</body>
+</html>

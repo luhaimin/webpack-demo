@@ -1,0 +1,21 @@
+/*
+	样式初始化
+*/
+
+
+*{
+	box-sizing: border-box;
+}
+html,body,div,p,ul,li,table,tr,td{
+	padding: 0;
+	margin: 0;
+}
+#root{
+	font-size: 24px;
+	background: blue;
+	width: 100%;
+}
+
+::placeholder {
+  color: gray;
+}

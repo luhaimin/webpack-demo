@@ -1,0 +1,5 @@
+.bannerWrapper{
+	height: 300px;
+	width: 500px;
+	background: url('../img/banner.jpg') no-repeat center;
+}
